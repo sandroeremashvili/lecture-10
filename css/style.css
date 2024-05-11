@@ -1,0 +1,159 @@
+header {
+    color: #FFF;
+    height: 84px;
+    width: 100%;
+    padding-top: 21px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1263px;
+    width: 100%;
+    margin: 0 auto;
+}
+.icon {
+    width: 33px;
+    height: 42px;
+}
+ul {
+    display: flex;
+    gap: 50px;
+}
+a {
+    color: #636060;
+    font-family: roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+section {
+    height: 700px;
+    background-image: url(../images/landscape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.burger {
+    font-size: 35px;
+    color: #636060;
+    display: none;
+}
+@media (max-width:1085px) {
+    .texti {
+        display: none;
+    }
+
+}
+
+@media (max-width:650px) {
+    nav {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    
+}
+h1 {
+    color: #FFF;
+    font-family: roboto;
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+h6 {
+    color: #FFF;
+    font-family: roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    margin-top: 14px;
+}
+.landscape {
+    width: 1513px;
+    margin-bottom: 84px;
+
+}
+
+h2 {
+    font-family: roboto;
+    color: #636060;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+h3 {
+    font-family: roboto;
+    color: #010101;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+h4 {
+    font-family: roboto;
+    color: #636060;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 235px;
+}
+.sekcia {
+    display: flex;
+    justify-content: space-between;
+    width: 1242px;
+    margin: 0 auto;
+}
+.div-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 924px;
+}
+h5 {
+    color: #343232;
+    font-family: roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+.foto1 {
+    margin-bottom: 23px;
+}
+
+.seqcia {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 133px;
+    margin-top: 56px;
+    margin-bottom: 140px;
+    gap: 33px;
+
+}
+
+@media (max-width:1080px) {
+    .sekcia {
+        justify-content: center;
+
+    }
+    
+}
